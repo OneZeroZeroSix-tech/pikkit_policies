@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pikkit – Automatic Refund Logic Rules</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+body {font-family:"Times New Roman", serif}
+h1,h2,h3,h4,h5,h6 {
+    font-family: serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<div class="w3-top w3-bar w3-white w3-padding w3-card w3-wide">
+    <a href="#home" class="w3-bar-item w3-button" style="font-size:30px;color:purple;font-weight:bold;">
+        Pikkit
+    </a>
+</div>
+
+<!-- Content -->
+<div id="home" class="w3-content" style="max-width:1100px">
+
+<div class="w3-padding-top-64"></div>
+
+<h1 class="w3-center">Pikkit – Automatic Refund Logic Rules</h1>
+
+<p><strong>Purpose:</strong></p>
+<p>To define automated decision-making logic for refunds and cancellations, reducing human error, fraud, and inconsistency.</p>
+
+<hr>
+<h2 class="w3-center">1. AUTOMATIC FULL REFUND RULES</h2>
+<p>System issues full refunds where:</p>
+<ul>
+<li><p>Courier never accepts</p></li>
+<li><p>Platform billing error confirmed</p></li>
+<li><p>Duplicate transaction detected</p></li>
+<li><p>Unauthorized transaction verified</p></li>
+</ul>
+
+<hr>
+<h2 class="w3-center">2. AUTOMATIC PARTIAL REFUND RULES</h2>
+<p>System issues partial refunds where:</p>
+<ul>
+<li><p>Courier accepted but not arrived</p></li>
+<li><p>Cancellation occurs within defined window</p></li>
+<li><p>Platform-caused delay exceeds threshold</p></li>
+</ul>
+
+<hr>
+<h2 class="w3-center">3. AUTOMATIC DENIAL RULES</h2>
+<p>System denies refunds where:</p>
+<ul>
+<li><p>Pickup occurred</p></li>
+<li><p>Delivery completed</p></li>
+<li><p>Evidence missing</p></li>
+<li><p>Policy violation detected</p></li>
+<li><p>Dispute window expired</p></li>
+</ul>
+
+<hr>
+<h2 class="w3-center">4. FRAUD PREVENTION LOGIC</h2>
+<p>Refund requests are automatically flagged where:</p>
+<ul>
+<li><p>High refund frequency</p></li>
+<li><p>Device/IP anomalies</p></li>
+<li><p>Prior chargebacks</p></li>
+<li><p>Misrepresentation patterns</p></li>
+</ul>
+<p>Flagged accounts may be suspended.</p>
+
+<hr>
+<h2 class="w3-center">5. FORCE MAJEURE LOGIC</h2>
+<p>No automatic refunds for:</p>
+<ul>
+<li><p>Weather events</p></li>
+<li><p>Natural disasters</p></li>
+<li><p>Government actions</p></li>
+</ul>
+<p>Manual review only.</p>
+
+<hr>
+<h2 class="w3-center">6. FINALITY AND OVERRIDES</h2>
+<p>Automated decisions may be overridden only by authorized personnel.</p>
+<p>All overrides are logged and auditable.</p>
+
+<hr>
+<h2 class="w3-center">7. PROCESSOR ALIGNMENT STATEMENT</h2>
+<p>These rules are designed to align with:</p>
+<ul>
+<li><p>Stripe dispute evidence standards</p></li>
+<li><p>Visa and Mastercard reason codes</p></li>
+<li><p>PayPal Seller Protection requirements</p></li>
+</ul>
+
+<h2 class="w3-center">Contact Information</h2>
+
+<p>
+If you have questions or concerns regarding this Privacy Policy, please contact us:
+</p>
+
+<p>
+<strong>Email:</strong> shwethha10@gmail.com<br>
+<strong>Address:</strong> Palo Alto, CA 94304
+</p>
+
+<br><br><br>
+
+</div>
+
+</body>
+</html>

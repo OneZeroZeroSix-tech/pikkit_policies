@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pikkit – Stripe Dispute Reason Code Cross-Reference & Defense Framework</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+body {font-family:"Times New Roman", serif}
+h1,h2,h3,h4,h5,h6 {
+    font-family: serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<div class="w3-top w3-bar w3-white w3-padding w3-card w3-wide">
+    <a href="#home" class="w3-bar-item w3-button" style="font-size:30px;color:purple;font-weight:bold;">
+        Pikkit
+    </a>
+</div>
+
+<!-- Content -->
+<div id="home" class="w3-content" style="max-width:1100px">
+
+<div class="w3-padding-top-64"></div>
+
+<h1 class="w3-center">Pikkit – Stripe Dispute Reason Code Cross-Reference & Defense Framework</h1>
+
+<p><strong>Purpose:</strong></p>
+<p>To formally map Platform refund and dispute rules to Stripe’s dispute reason codes, ensuring consistency, defensibility, and chargeback reduction.</p>
+<p>This document is incorporated into the Refunds, Cancellations & Dispute Resolution Policy and governs how disputes are evaluated, responded to, and defended.</p>
+
+<hr>
+<h2 class="w3-center">1. OVERVIEW OF STRIPE DISPUTE CATEGORIES</h2>
+<p>Stripe classifies disputes into standardized reason codes imposed by card networks. The Platform adopts these categories and aligns internal determinations accordingly.</p>
+<p>Primary Stripe dispute categories include:</p>
+<ul>
+<li><p>Fraudulent</p></li>
+<li><p>Unrecognized</p></li>
+<li><p>Duplicate</p></li>
+<li><p>Credit Not Processed</p></li>
+<li><p>Product Not Received</p></li>
+<li><p>Product Unacceptable</p></li>
+<li><p>No Show / Canceled Recurring</p></li>
+<li><p>General / Other</p></li>
+</ul>
+<p>Each category has strict evidentiary requirements, timelines, and reversal probabilities.</p>
+
+<hr>
+<h2 class="w3-center">2. FRAUDULENT TRANSACTIONS (CARD NOT PRESENT FRAUD)</h2>
+<p><strong>Stripe Code:</strong> Fraudulent</p>
+<p><strong>Typical Claim:</strong> “I did not authorize this charge.”</p>
+<span style="font-size: 20px; font-weight: bold;">Platform Position:</span>
+<p>Fraud claims are eligible for review only where:</p>
+<ul>
+<li><p>The account shows no prior usage</p></li>
+<li><p>Device or IP mismatch is present</p></li>
+<li><p>No delivery was completed</p></li>
+<li><p>No authenticated session evidence exists</p></li>
+</ul>
+<span style="font-size: 20px; font-weight: bold;">Automatic Denial Conditions:</span>
+<p>Fraud claims are denied where:</p>
+<ul>
+<li><p>User account credentials were used</p></li>
+<li><p>Delivery was completed</p></li>
+<li><p>GPS known location matches User history</p></li>
+<li><p>Platform authentication logs confirm access</p></li>
+</ul>
+<span style="font-size: 20px; font-weight: bold;">Evidence Submitted to Stripe:</span>
+<ul>
+<li><p>Account login records</p></li>
+<li><p>Device fingerprinting</p></li>
+<li><p>Delivery confirmation</p></li>
+<li><p>Communications logs</p></li>
+</ul>
+
+<hr>
+<h2 class="w3-center">3. UNRECOGNIZED TRANSACTIONS</h2>
+<p><strong>Stripe Code:</strong> Unrecognized</p>
+<p><strong>Typical Claim:</strong> “I don’t recognize this merchant.”</p>
+<span style="font-size: 20px; font-weight: bold;">Platform Position:</span>
+<p>The Platform name, descriptor, and transaction details are clearly displayed at checkout.</p>
+<p>Claims are denied where:</p>
+<ul>
+<li><p>User completed checkout</p></li>
+<li><p>Transaction confirmation was displayed</p></li>
+<li><p>Receipt was sent</p></li>
+<li><p>Delivery was requested or completed</p></li>
+</ul>
+<span style="font-size: 20px; font-weight: bold;">Refund Eligibility:</span>
+<p>Generally not refundable unless billing error is proven.</p>
+
+<hr>
+<h2 class="w3-center">4. DUPLICATE CHARGES</h2>
+<p><strong>Stripe Code:</strong> Duplicate</p>
+<span style="font-size: 20px; font-weight: bold;">Platform Position:</span>
+<p>Duplicate charges may occur due to processor retries or system errors.</p>
+<span style="font-size: 20px; font-weight: bold;">Refund Eligibility:</span>
+<p>Full refund issued where:</p>
+<ul>
+<li><p>Identical amounts</p></li>
+<li><p>Same timestamp or close proximity</p></li>
+<li><p>No corresponding duplicate service</p></li>
+</ul>
+<span style="font-size: 20px; font-weight: bold;">Evidence:</span>
+<ul>
+<li><p>Payment logs</p></li>
+<li><p>Processor records</p></li>
+</ul>
+
+<hr>
+<h2 class="w3-center">5. CREDIT NOT PROCESSED</h2>
+<p><strong>Stripe Code:</strong> Credit Not Processed</p>
+<p><strong>Typical Claim:</strong> “I was promised a refund but didn’t receive it.”</p>
+<span style="font-size: 20px; font-weight: bold;">Platform Position:</span>
+<p>Refunds are processed according to published timelines and eligibility rules.</p>
+<p>Claims denied where:</p>
+<ul>
+<li><p>Refund was not approved</p></li>
+<li><p>Refund was conditional</p></li>
+<li><p>Refund window expired</p></li>
+</ul>
+<span style="font-size: 20px; font-weight: bold;">Evidence:</span>
+<ul>
+<li><p>Refund policy acceptance</p></li>
+<li><p>Internal decision logs</p></li>
+<li><p>Refund timestamps</p></li>
+</ul>
+
+<hr>
+<h2 class="w3-center">6. PRODUCT NOT RECEIVED</h2>
+<p><strong>Stripe Code:</strong> Product Not Received</p>
+<span style="font-size: 20px; font-weight: bold;">Platform Position:</span>
+<p>Delivery services are not physical goods sales.</p>
+<p>Claims denied where:</p>
+<ul>
+<li><p>Delivery was completed</p></li>
+<li><p>GPS confirms delivery</p></li>
+<li><p>Courier proof exists</p></li>
+</ul>
+<p>Claims reviewed where:</p>
+<ul>
+<li><p>Delivery failed without Sender fault</p></li>
+<li><p>Courier abandoned delivery</p></li>
+</ul>
+
+<hr>
+<h2 class="w3-center">7. PRODUCT UNACCEPTABLE / NOT AS DESCRIBED</h2>
+<p><strong>Stripe Code:</strong> Product Unacceptable</p>
+<span style="font-size: 20px; font-weight: bold;">Platform Position:</span>
+<p>Subjective dissatisfaction does not qualify for refunds.</p>
+<p>Claims denied where:</p>
+<ul>
+<li><p>Delivery completed as requested</p></li>
+<li><p>No objective damage evidence exists</p></li>
+</ul>
+<p>Refunds considered only for verified damage with evidence.</p>
+
+<hr>
+<h2 class="w3-center">8. NO-SHOW / CANCELED SERVICE</h2>
+<p><strong>Stripe Code:</strong> No Show / Canceled</p>
+<span style="font-size: 20px; font-weight: bold;">Platform Position:</span>
+<p>Cancellation timing controls eligibility.</p>
+<p>Claims denied where:</p>
+<ul>
+<li><p>Courier accepted</p></li>
+<li><p>Courier arrived</p></li>
+<li><p>Pickup occurred</p></li>
+</ul>
+
+<hr>
+<h2 class="w3-center">9. FINALITY AND PROCESSOR DEFERENCE</h2>
+<p>Stripe and card networks make independent determinations.</p>
+<p>The Platform’s internal decision remains binding regardless of processor outcome.</p>
+
+<h2 class="w3-center">Contact Information</h2>
+
+<p>
+If you have questions or concerns regarding this Privacy Policy, please contact us:
+</p>
+
+<p>
+<strong>Email:</strong> shwethha10@gmail.com<br>
+<strong>Address:</strong> Palo Alto, CA 94304
+</p>
+
+<br><br><br>
+
+</div>
+
+</body>
+</html>
