@@ -64,10 +64,14 @@ p {
 <li><p><a style="text-decoration: none; color: blueviolet;" href="background_check_and_safety_policy.html">Background Check & Safety Policy</a></p></li>
 <li><p><a style="text-decoration: none; color: blueviolet;" href="courier_independent_contractor_agreement.html">Courier Independent Contractor Agreement</a></p></li>
 <li><p><a style="text-decoration: none; color: blueviolet;" href="courier_safety_incident_policy.html">Courier Safety Incident Policy</a></p></li>
-<li><p><a style="text-decoration: none; color: blueviolet;" href="#"></a></p></li>
-<li><p><a style="text-decoration: none; color: blueviolet;" href="#"></a></p></li>
-<li><p><a style="text-decoration: none; color: blueviolet;" href="#"></a></p></li>
-<li><p><a style="text-decoration: none; color: blueviolet;" href="#"></a></p></li>
+<li><p><a style="text-decoration: none; color: blueviolet;" href="accessibility_statement_and_accessibility_policy.html">Accessibility Statement & Accessibility Policy</a></p></li>
+<li><p><a style="text-decoration: none; color: blueviolet;" href="content_escalation_and_arbitration_exhibit">Content Escalation & Arbitration Exhibit</a></p></li>
+<li><p><a style="text-decoration: none; color: blueviolet;" href="content_moderation_and_communications_policy">Content Moderation & Communications Policy</a></p></li>
+<li><p><a style="text-decoration: none; color: blueviolet;" href="cookie_policy_and_tracking_disclosure">Cookie Policy & Tracking Disclosure</a></p></li>
+<li><p><a style="text-decoration: none; color: blueviolet;" href="data_retention_and_deletion_policy">Data Retention & Deletion Policy</a></p></li>
+<li><p><a style="text-decoration: none; color: blueviolet;" href="risk_disclosure_statement">Risk Disclosure Statement</a></p></li>
+<li><p><a style="text-decoration: none; color: blueviolet;" href="emergency_and_incident_response_policy">Emergency & Incident Response Policy</a></p></li>
+<li><p><a style="text-decoration: none; color: blueviolet;" href="api_and_developer_terms">API & Developer Terms</a></p></li>
 </ul>
 
 <h2 class="w3-center">Contact Information</h2>
