@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Pikkit</title>
+<title>Pykkit</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -29,7 +29,7 @@ p {
 <!-- Navigation -->
 <div class="w3-top w3-bar w3-white w3-padding w3-card w3-wide">
     <a href="#home" class="w3-bar-item w3-button" style="font-size:30px;color:purple;font-weight:bold;">
-        Pikkit
+        Pykkit
     </a>
 </div>
 
@@ -38,10 +38,10 @@ p {
 
 <div class="w3-padding-top-64"></div>
 
-<h1 class="w3-center">Pikkit</h1>
+<h1 class="w3-center">Pykkit</h1>
 
 <hr>
-<h2 class="w3-center">PIKKIT</h2>
+<h2 class="w3-center">Pykkit</h2>
 
 <ul>
 <li><p><a style="text-decoration: none; color: blueviolet;" href="automatic_refund_logic_rules.html">Automatic Refund Logic Rules</a></p></li>
@@ -54,7 +54,7 @@ p {
 <li><p><a style="text-decoration: none; color: blueviolet;" href="courier_termination_and_appeals_process.html">Courier Termination & Appeals Process</a></p></li>
 <li><p><a style="text-decoration: none; color: blueviolet;" href="insurance.html">Insurance Policy</a></p></li>
 <li><p><a style="text-decoration: none; color: blueviolet;" href="law_enforcement_cooperation_and_regulatory_compliance_policy.html">Law Enforcement Cooperation & Regulatory Compliance Policy</a></p></li>
-<li><p><a style="text-decoration: none; color: blueviolet;" href="pikkit_courier_independent_contractor_agreement.html">Courier Independent Contractor Agreement</a></p></li>
+<li><p><a style="text-decoration: none; color: blueviolet;" href="Pykkit_courier_independent_contractor_agreement.html">Courier Independent Contractor Agreement</a></p></li>
 <li><p><a style="text-decoration: none; color: blueviolet;" href="privacy.html">Privacy Policy</a></p></li>
 <li><p><a style="text-decoration: none; color: blueviolet;" href="prohibited_items_and_acceptable_use_policy.html">Prohibited Items & Acceptable Use Policy</a></p></li>
 <li><p><a style="text-decoration: none; color: blueviolet;" href="prop_22_earnings_guarantee_addendum.html">Prop 22 Earnings Guarantee Addendum</a></p></li>
